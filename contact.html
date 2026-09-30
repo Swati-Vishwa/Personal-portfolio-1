@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Swati Vishwakarma</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Karma</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container contact-section">
+    <div class="contactText">
+      <h2>Let's talk</h2>
+      <p>Have a project in mind, a question, or just want to say hi? Feel free to drop a message. I'd love to hear from
+        you!</p>
+  
+      <div class="contact-info-list">
+        <div class="contact-info-item">
+          <span class="info-label">Email</span>
+          <a href="mailto:your.email@example.com">email@example.com</a>
+        </div>
+        <div class="contact-info-item">
+          <span class="info-label">Phone</span>
+          <p>+1234567890</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="contactForm">
+      <form autocomplete="on">
+        <label for="Name" class="section-title">
+          Full Name
+          <input type="text" id="Name" name="name" placeholder="Jane Doe" required>
+        </label>
+  
+        <label for="Email" class="section-title">
+          Email Address
+          <input type="email" id="Email" name="email" placeholder="jane@example.com" required>
+        </label>
+  
+        <label for="Phone" class="section-title">
+          Phone Number <span class="optional">(Optional)</span>
+          <input type="tel" id="Phone" name="phone" placeholder="+91 98765 43210">
+        </label>
+  
+        <label for="Message" class="section-title">
+          Your Message
+          <textarea id="Message" name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+        </label>
+  
+        <button type="submit" class="submit-btn" id="submitBTN">Send Message</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <a href="#" class="footer-logo">Karma</a>
+        <p class="footer-tagline">Building thoughtful digital experiences.</p>
+      </div>
+  
+      <div class="footer-right">
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="footer-socials">
+          <a href="#" target="_blank" rel="noopener">GitHub</a>
+          <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="#">Email</a>
+        </div>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>&copy; <span id="current-year"></span> Karma. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

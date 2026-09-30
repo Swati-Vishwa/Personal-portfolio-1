@@ -1,0 +1,403 @@
+/* TABLET - 768px and below */
+@media (max-width: 768px) {
+  :root {
+    --navbar-height: 60px;
+  }
+
+  /* Navigation */
+  nav {
+    padding: 1rem 1.5rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-links {
+    gap: 1.5rem;
+  }
+
+  .nav-links a {
+    font-size: 0.85rem;
+  }
+
+  /* Hero Section */
+  .heroCont{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-column: 1fr;
+    gap: 0;
+  }
+  .heroTxtContent{
+    margin: 0;
+    padding: 3rem 0 0 0;
+  }
+  .heroImage img{
+    width: 400px;
+  }
+  .heroMainTxt {
+    font-size: 60px;
+  }
+
+  .heroSubTxt {
+    font-size: 16px;
+    letter-spacing: 3px;
+  }
+
+  .heroOccupation {
+    font-size: 16px;
+    width: 300px;
+    letter-spacing: 2px;
+  }
+
+  .dottedArrow {
+    display: none;
+  }
+
+  /* About Section */
+  .about-container {
+    padding: 1rem 1.5rem;
+  }
+
+  .about-heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .profile-image {
+    width: 220px;
+    height: 220px;
+  }
+
+  .profile-name {
+    font-size: 2rem;
+  }
+
+  .bio-text {
+    font-size: 0.9rem;
+  }
+
+  .project-description {
+    width: 100%;
+  }
+
+  .cont {
+    width: 100%;
+  }
+
+  .about-content {
+    width: 100%;
+  }
+
+  /* Projects Section */
+  .projects-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .carousel-wrapper {
+    gap: 1rem;
+  }
+
+  .carousel-container {
+    max-width: 400px;
+  }
+
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+  }
+
+  .project-card {
+    min-width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-info {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .project-description {
+    width: 250px;
+    max-width: 100%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem 1.5rem;
+  }
+
+  .contactText h2 {
+    font-size: 2.5rem;
+  }
+
+  .contactForm {
+    padding: 1.5rem;
+  }
+
+  /* Footer */
+  .footer-container {
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .footer-right {
+    gap: 2rem;
+  }
+
+  .footer-logo {
+    font-size: 1.6rem;
+  }
+}
+
+/* MOBILE - 480px and below */
+@media (max-width: 480px) {
+  :root {
+    --navbar-height: 60px;
+  }
+
+  /* Navigation */
+  nav {
+    padding: 0.8rem 1rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+  }
+
+  .nav-links {
+    gap: 1rem;
+    font-size: 0.75rem;
+  }
+
+  .nav-links a {
+    font-size: 0.75rem;
+  }
+
+  /* Hero Section */
+  .container {
+    height: calc(100vh - var(--navbar-height));
+  }
+
+  .heroTxtContent {
+    padding: 0 1rem;
+  }
+
+  .heroMainTxt {
+    font-size: 45px;
+    margin: 0.5rem 0;
+  }
+
+  .heroSubTxt {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+
+  .heroOccupation {
+    font-size: 14px;
+    width: 100%;
+    max-width: 250px;
+    letter-spacing: 1px;
+  }
+
+  /* About Section */
+  .about-container {
+    padding: 1rem;
+  }
+
+  .about-heading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-content {
+    gap: 1.5rem;
+  }
+
+  .tech-items {
+    gap: 0.5rem;
+  }
+
+  .profile-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .profile-name {
+    font-size: 1.5rem;
+  }
+
+  .bio-text {
+    font-size: 0.85rem;
+    text-align: left;
+  }
+
+  .section-title {
+    font-size: 0.8rem;
+  }
+
+  /* Projects Section */
+  .projects-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .carousel-wrapper {
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 100%;
+  }
+
+  .carousel-container {
+    max-width: 100%;
+    width: 90vw;
+  }
+
+  .carousel-btn {
+    width: 45px;
+    height: 45px;
+    font-size: 1.2rem;
+  }
+
+  .project-name {
+    font-size: 1.3rem;
+  }
+
+  .project-description {
+    font-size: 0.85rem;
+  }
+
+  .tech-tag {
+    font-size: 0.7rem;
+    padding: 0.3rem 0.7rem;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    padding: 1.5rem 1rem;
+    min-height: auto;
+  }
+
+  .contactText h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .contactText p {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-info-item .info-label {
+    font-size: 0.7rem;
+  }
+
+  .contact-info-item a,
+  .contact-info-item p {
+    font-size: 0.95rem;
+  }
+
+  .contactForm {
+    padding: 1.25rem;
+    box-shadow: 2px 2px 0px #1a1a1a;
+  }
+
+  form {
+    gap: 1rem;
+  }
+
+  form label {
+    font-size: 0.75rem;
+  }
+
+  form label input,
+  form label textarea {
+    padding: 0.7rem 0.85rem;
+    font-size: 0.9rem;
+  }
+
+  .submit-btn {
+    padding: 0.85rem 1rem;
+    font-size: 0.85rem;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 2rem 1rem 1rem 1rem;
+  }
+
+  .footer-container {
+    border-bottom: none;
+    padding-bottom: 1.5rem;
+  }
+
+  .footer-logo {
+    font-size: 1.4rem;
+  }
+
+  .footer-tagline {
+    font-size: 0.8rem;
+  }
+
+  .footer-right {
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .footer-links,
+  .footer-socials {
+    gap: 0.5rem;
+  }
+
+  .footer-links a,
+  .footer-socials a {
+    font-size: 0.85rem;
+  }
+
+  .footer-bottom {
+    font-size: 0.75rem;
+    margin-top: 1rem;
+  }
+}
+
+/* Extra Small Devices - 360px and below */
+@media (max-width: 360px) {
+  .heroMainTxt {
+    font-size: 36px;
+  }
+
+  .heroSubTxt {
+    font-size: 12px;
+  }
+
+  .carousel-container {
+    width: 95vw;
+  }
+
+  .about-heading,
+  .projects-heading,
+  .contactText h2 {
+    font-size: 1.75rem;
+  }
+}
